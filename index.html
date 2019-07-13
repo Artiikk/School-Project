@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>hacked</title>
+    <link rel="stylesheet" href="../dist/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <script type="text/javascript">
+      function valid(form) {
+        var fail = false;
+        var name = form.name.value;
+        const pass = 123456789;
+
+        if(pass != name) {
+          false;
+          fail = "Write you correct ID";
+        }
+
+        if(fail) {
+          alert(fail);
+        }
+        else
+          window.location = "../dist/qwerxcgdfbxcqw42342.html";
+      }
+      //php -S localhost:8000
+    </script>
+  </head>
+
+  <body>
+    <h1>To unlock your files and get your private key, type your ID</h1>
+      <form action="" method="post" id="form">
+        <input type="text"  class="input" name="name" id="name" name="fio" placeholder="Enter your ID">
+        <input type="button" class="button" value="Send it" onclick="valid(document.getElementById('form'))">
+      </form>
+  </body>
+</html>

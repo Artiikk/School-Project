@@ -1,0 +1,22 @@
+body{
+  background: url("../dist/123.jpg") no-repeat;
+  background-size: cover;
+}
+.key {
+  width: 800px;
+  margin: 90px auto 0 auto;
+  font-size: 50px;
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 20px;
+}
+
+.private_key {
+  border: 2px solid;
+  border-radius: 50px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Anton', sans-serif;
+  width: 900px;
+  font-size: 20px;
+  line-height: 3em;
+}
